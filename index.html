@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<meta property="og:title" content="Mandy Game">
+<meta property="og:description" content="A small gift made specified for Mandy.">
+<meta property="og:image" content="https://dreamstown.online/image.png">
+<meta property="og:url" content="https://dreamstown.online">
+<meta property="og:type" content="website">
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mandy Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  
+    <div id="intro-message" class="intro-message">
+        <h1>Before you start</h1>
+        <p>
+            Make sure you open this website in landscape mode by rotating your device.<br>
+            This website is made by one person AND DOES NOT HAVE A TIME TO OPTIMIZE IT FOR ALL DEVICES,<br>
+            so get the hell out. turn your device horizontally, and click on the Start button :D
+        </p>
+        <button id="start-button" class="start-button">Start</button>
+    </div>
+
+    <div id="loading-screen" class="loading-screen hide">
+        <div class="loading-container">
+            <h1>Loading 3D data</h1>
+            <div class="loading-bar-container">
+                <div id="loading-bar" class="loading-bar"></div>
+            </div>
+            <div id="loading-percentage" class="loading-percentage">0%</div>
+        </div>
+    </div>
+
+    <div class="video-container hide">
+        <video id="video" preload="auto">
+            <source src="video1.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
